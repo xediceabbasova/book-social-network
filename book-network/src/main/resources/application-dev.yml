@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/book_social_network
+    username: username
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  mail:
+    host: localhost
+    port: 1025
+    username: khadija
+    password: khadija
+    properties:
+      mail:
+        smtp:
+          trust: "*"
+        auth: true
+        starttls:
+          enable: true
+        connection-timeout: 5000
+        timeout: 3000
+        write-timeout: 5000

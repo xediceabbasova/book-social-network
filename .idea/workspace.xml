@@ -4,45 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4f7fb3-7996-40cd-88f2-99e781984271" name="Changes" comment="" />
+    <list default="true" id="8d4f7fb3-7996-40cd-88f2-99e781984271" name="Changes" comment="created">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/config/BeansConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/role/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/role/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book_network/BookNetworkApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/BookNetworkApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/test/java/com/company/book_network/BookNetworkApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/test/java/com/company/book/BookNetworkApiApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2jQgpa04MUM12j2GWtc06TwhqDa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Workspace/book-social-network",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/book-social-network&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BookNetworkApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="book-network" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.book_network.BookNetworkApiApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.book.BookNetworkApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,8 +89,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721324897444</updated>
-      <workItem from="1721324898649" duration="1676000" />
+      <workItem from="1721324898649" duration="2553000" />
+      <workItem from="1721333033930" duration="7888000" />
     </task>
+    <task id="LOCAL-00001" summary="created">
+      <option name="closed" value="true" />
+      <created>1721329044631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721329044631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created" />
+    <option name="LAST_COMMIT_MESSAGE" value="created" />
   </component>
 </project>
