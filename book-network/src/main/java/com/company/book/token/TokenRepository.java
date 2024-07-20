@@ -1,4 +1,4 @@
-package com.company.book.user;
+package com.company.book.token;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

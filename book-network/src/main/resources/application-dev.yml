@@ -25,3 +25,15 @@ spring:
         connection-timeout: 5000
         timeout: 3000
         write-timeout: 5000
+
+application:
+  security:
+    jwt:
+      secret-key: pKzc0Q6gAqsZl3wtBafRfrfwrf7k6YXJy3h1Cxxqm6U975Bf8Cs/SZzfiCj40CYs9RSIrWkOHE77us+DoRXcdw5Fj6iZPQ8xvFaI0hcpuHpaSZNum4nMJagSZgLN7cr8O9az0U++y/RFBf1zrk8/C7DjZdB8vNhH3BW+jn/O6gU=
+      expiration: 8640000
+  mailing:
+    frontend:
+      activation-url: http://localhost:4200/activate-account
+
+server:
+  port: 8088

@@ -1,9 +1,9 @@
-package com.company.book.user;
+package com.company.book.token;
 
 
+import com.company.book.user.User;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
 
