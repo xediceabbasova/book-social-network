@@ -1,9 +1,11 @@
 package com.company.book.exception;
 
+import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 import static org.springframework.http.HttpStatus.*;
 
+@Getter
 public enum BusinessErrorCodes {
 
     NO_CODE(0, NOT_IMPLEMENTED, "No code"),
@@ -21,17 +23,5 @@ public enum BusinessErrorCodes {
         this.code = code;
         this.httpStatus = httpStatus;
         this.description = description;
-    }
-
-    public int getCode() {
-        return code;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public HttpStatus getHttpStatus() {
-        return httpStatus;
     }
 }

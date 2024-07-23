@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4f7fb3-7996-40cd-88f2-99e781984271" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/common/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/config/ApplicationAuditAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/history/BookTransactionHistory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/BookNetworkApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/BookNetworkApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/config/BeansConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/config/BeansConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/exception/BusinessErrorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/exception/BusinessErrorCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +31,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -70,6 +84,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.book.book" />
       <recent name="com.company.book.exception" />
       <recent name="com.company.book.auth" />
       <recent name="com.company.book.email" />
@@ -108,7 +123,8 @@
       <workItem from="1721333033930" duration="7926000" />
       <workItem from="1721411329284" duration="9453000" />
       <workItem from="1721492520910" duration="14848000" />
-      <workItem from="1721578703576" duration="7389000" />
+      <workItem from="1721578703576" duration="8286000" />
+      <workItem from="1721751098103" duration="7024000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <option name="closed" value="true" />
@@ -134,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721517647002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated">
+      <option name="closed" value="true" />
+      <created>1721596105002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721596105002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
