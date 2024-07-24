@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4f7fb3-7996-40cd-88f2-99e781984271" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BorrowedBookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/exception/OperationNotPermittedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/history/BookTransactionHistoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDtoConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +74,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.book.book" />
       <recent name="com.company.book.exception" />
+      <recent name="com.company.book.book" />
       <recent name="com.company.book.auth" />
       <recent name="com.company.book.email" />
       <recent name="com.company.book.security" />
@@ -115,7 +118,7 @@
       <workItem from="1721492520910" duration="14848000" />
       <workItem from="1721578703576" duration="8286000" />
       <workItem from="1721751098103" duration="7414000" />
-      <workItem from="1721845796503" duration="724000" />
+      <workItem from="1721845796503" duration="3319000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <option name="closed" value="true" />
@@ -157,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721773976835</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated">
+      <option name="closed" value="true" />
+      <created>1721850090250</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721850090250</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
