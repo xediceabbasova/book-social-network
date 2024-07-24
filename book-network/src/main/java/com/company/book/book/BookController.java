@@ -34,4 +34,11 @@ public class BookController {
                                                              Authentication connectedUser) {
         return ResponseEntity.ok(bookService.getAllBooks(page, size, connectedUser));
     }
+
+    @GetMapping("/owner")
+    public ResponseEntity<PageResponse<BookDto>> getAllBooksByOwner(@RequestParam(name = "page", defaultValue = "0", required = false) int page,
+                                                                    @RequestParam(name = "size", defaultValue = "10", required = false) int size,
+                                                                    Authentication connectedUser) {
+        return ResponseEntity.ok(bookService.getAllBooksByOwner(page, size, connectedUser));
+    }
 }

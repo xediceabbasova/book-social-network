@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4f7fb3-7996-40cd-88f2-99e781984271" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/common/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/common/PageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/config/ApplicationAuditAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/Feedback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/history/BookTransactionHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookSpecification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/BookNetworkApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/BookNetworkApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/config/BeansConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/config/BeansConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/exception/BusinessErrorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/exception/BusinessErrorCodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +80,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\book-social-network\book-network\src\main\java\com\company\book\token" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.book.book" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="BookNetworkApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -124,7 +114,8 @@
       <workItem from="1721411329284" duration="9453000" />
       <workItem from="1721492520910" duration="14848000" />
       <workItem from="1721578703576" duration="8286000" />
-      <workItem from="1721751098103" duration="7024000" />
+      <workItem from="1721751098103" duration="7414000" />
+      <workItem from="1721845796503" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <option name="closed" value="true" />
@@ -158,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721596105002</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated">
+      <option name="closed" value="true" />
+      <created>1721773976835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721773976835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
