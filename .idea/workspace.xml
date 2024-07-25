@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4f7fb3-7996-40cd-88f2-99e781984271" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BorrowedBookDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/exception/OperationNotPermittedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/history/BookTransactionHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/FeedbackDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/FeedbackDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/FeedbackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/FeedbackRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/feedback/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/file/FileStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/file/FileUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookDtoConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/history/BookTransactionHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/company/book/history/BookTransactionHistoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,46 +51,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BookNetworkApiApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/book-social-network/book-network/src/main/java/com/company/book/token&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BookNetworkApiApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Workspace/spring-design-pattern",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.book.feedback" />
+      <recent name="com.company.book.file" />
       <recent name="com.company.book.exception" />
       <recent name="com.company.book.book" />
       <recent name="com.company.book.auth" />
-      <recent name="com.company.book.email" />
-      <recent name="com.company.book.security" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\book-social-network\book-network\src\main\java\com\company\book\token" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.book.feedback" />
       <recent name="com.company.book.book" />
     </key>
   </component>
@@ -118,7 +126,8 @@
       <workItem from="1721492520910" duration="14848000" />
       <workItem from="1721578703576" duration="8286000" />
       <workItem from="1721751098103" duration="7414000" />
-      <workItem from="1721845796503" duration="3319000" />
+      <workItem from="1721845796503" duration="3428000" />
+      <workItem from="1721918675180" duration="9572000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <option name="closed" value="true" />
@@ -168,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721850090250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated">
+      <option name="closed" value="true" />
+      <created>1721862183116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721862183116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

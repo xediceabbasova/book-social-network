@@ -1,10 +1,10 @@
 package com.company.book.book;
 
+import com.company.book.file.FileUtils;
 import com.company.book.history.BookTransactionHistory;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Component;
 
-import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 @Component
@@ -18,7 +18,7 @@ public class BookDtoConverter {
                 from.getIsbn(),
                 from.getSynopsis(),
                 from.getOwner().fullName(),
-                from.getBookCover().getBytes(StandardCharsets.UTF_8),
+                FileUtils.readFileFromLocation(from.getBookCover()),
                 from.getRate(),
                 from.isArchived(),
                 from.isShareable()
